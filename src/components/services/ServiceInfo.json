@@ -1,0 +1,26 @@
+{
+    "hair_braiding_services": [
+      {
+        "name": "Traditional Box Braids",
+        "description": "Classic box braids with synthetic hair",
+        "price": 180
+      },
+      {
+        "name": "Cornrows",
+        "description": "Intricate cornrow designs",
+        "price": 60
+      },
+      {
+        "name": "Senegalese Twists",
+        "description": "Long Senegalese twists with extensions",
+        "price": 160
+      },
+      {
+        "name": "Knotless Braids",
+        "description": "Stylish, natural looking individual braids",
+        "price": 215
+      }
+    ]
+  }
+
+  
