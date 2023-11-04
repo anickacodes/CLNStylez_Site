@@ -1,22 +1,21 @@
 import { useState } from "react";
-
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ServiceList from "./components/services/ServiceList";
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
-      <h1>CLN Stylez: Where natural hair gets healing service </h1>
+      <Router>
+      <NavBar />
 
-      <div className="container text-center">
-        <div className="row">
-          <div className="col">
-            <ServiceList />
-          </div>
-          <div className="col">
-            <ServiceList />
-          </div>
-        </div>
-      </div>
+        <Routes>
+          <Route path={"/"} element={<Home/>} />
+
+          <Route path={"/services"} element={<ServiceList />} />
+        </Routes>
+      </Router>
     </>
   );
 }
