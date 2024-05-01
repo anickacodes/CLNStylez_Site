@@ -8,7 +8,7 @@
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .logo {
@@ -20,5 +20,11 @@ nav {
 }
 
 #button {
-  border-radius: 1.8em;
+  border-radius: 1em;
+}
+
+.subtitle {
+  color: rgba(128, 0, 128, 0.516); 
+  text-align: center;
+  margin-top: 20px; 
 }

@@ -8,15 +8,15 @@ h2 {
     padding: 2px;
     text-align: center;
     display: flex;
-flex-direction: column;
-  }
-  
-  .category-item {
+    flex-direction: column;
+}
+
+.category-item {
     font-size: 22px;
     margin-bottom: 8px;
-  }
-  
-  .category-item:hover {
-    color: #007bff; 
+}
+
+.category-item:hover {
+    color: #007bff;
     cursor: pointer;
-  }
+}
