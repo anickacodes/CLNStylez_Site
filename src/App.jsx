@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ServiceList from "./components/services/ServiceList";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
+import './App.css'
 
 function App() {
   return (
