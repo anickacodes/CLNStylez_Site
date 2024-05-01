@@ -1,0 +1,22 @@
+h2 {
+    color: rgba(128, 0, 128, 0.516);
+    text-align: center;
+}
+
+.categories-container {
+    margin-top: 20px;
+    padding: 2px;
+    text-align: center;
+    display: flex;
+flex-direction: column;
+  }
+  
+  .category-item {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  
+  .category-item:hover {
+    color: #007bff; 
+    cursor: pointer;
+  }

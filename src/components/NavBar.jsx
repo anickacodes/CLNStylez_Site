@@ -6,8 +6,8 @@ export default function NavBar() {
   return (
     <>
       <nav>
-      <Button className="btn btn-light" id='button' as={Link} to="/">Home</Button> 
-      <Button className="btn btn-light" id='button' as={Link} to="/services">Services</Button> 
+      <Button className="btn btn-light" id='button' as={Link} to="/" disabled>Home</Button> 
+      <Button className="btn btn-light" id='button' as={Link} to="/service-categories">Service Listings </Button> 
    
       </nav>
     </>

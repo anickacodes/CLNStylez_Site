@@ -1,32 +1,32 @@
 import React from "react";
 import hairBraidingServicesData from "./ServiceInfo.json";
 import { Link } from "react-router-dom";
+import { Container } from "react-bootstrap";
+import "./ServiceList.css"; 
 
 function ServiceList() {
-  // Access the JSON data
   const { hair_braiding_services } = hairBraidingServicesData;
 
   return (
-    <div className="container text-center">
+    <Container className="service-list-container text-center">
       <div className="row">
         <div className="col-sm">
-          <div>
-            <h1>Available Hair Braiding Services</h1>
+       
             <ul>
               {hair_braiding_services.map((service, index) => (
-                <li key={index}>
-                  <Link to={service.name} > {service.name}</Link>
+                <li key={index} className="service-item">
+                  <Link to={service.name} className="service-name">{service.name}</Link>
                   <br />
-                  Description: {service.description}
+                  <span className="service-description">Description: {service.description}</span>
                   <br />
-                  Price: ${service.price}
+                  <span className="service-price">Price: ${service.price}</span>
                 </li>
               ))}
             </ul>
           </div>
-        </div>
+     
       </div>
-    </div>
+    </Container>
   );
 }
 
