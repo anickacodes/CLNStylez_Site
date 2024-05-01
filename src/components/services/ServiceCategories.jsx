@@ -8,17 +8,27 @@ const ServiceCategories = () => {
         <i>Currently offered services</i> 
         </h2>
       <section>
-        <ul className="catefory-list list-group">
-          <li className="category-item "><Link to="/services/kids">Kids</Link></li>
-
-          <li className="category-item"><Link to="/services/color">Color</Link></li>
-          <li className="category-item"><Link to="/services/crochet">Crochet</Link></li>
-          <li className="category-item"><Link to="/services/natural-styling">Natural Styling</Link></li>
-          <li className="category-item"><Link to="/services/hair-care-regimen">Hair Maintenance</Link></li>
-          <li className="category-item"><Link to="/services/braid-and-twist-extensions">Braid & Twist Extensions</Link></li>
-        
-        </ul>
-      </section>
+        <ul className="category-list list-group" role="list">
+          <li className="category-item list-group-item">
+            <Link to="/services/kids" role="listitem">Kids</Link>
+          </li>
+          <li className="category-item list-group-item">
+            <Link to="/services/color" role="listitem">Color</Link>
+          </li>
+          <li className="category-item list-group-item">
+            <Link to="/services/crochet" role="listitem">Crochet</Link>
+          </li>
+          <li className="category-item list-group-item">
+            <Link to="/services/natural-styling" role="listitem">Natural Styling</Link>
+          </li>
+          <li className="category-item list-group-item">
+            <Link to="/services/hair-care-regimen" role="listitem">Hair Maintenance</Link>
+          </li>
+          <li className="category-item list-group-item">
+            <Link to="/services/braid-and-twist-extensions" role="listitem">Braid & Twist Extensions</Link>
+          </li>
+       </ul>
+        </section>
     </div>
   );
 };

@@ -10,7 +10,7 @@ const Footer = () => {
             left:0,
             right: 0,
             width: "maxContent"
-          }}>
+          }} aria-label="Footer" role="contentinfo">
         <Container>
           <p className="mb-0 text-center">© 2024 CLN Stylez. All rights reserved.</p>
         </Container>

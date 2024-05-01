@@ -15,12 +15,12 @@ function ServiceList() {
             <ul>
               {hair_braiding_services.map((service, index) => (
                 <li key={index} className="service-item">
-                  <Link to={service.name} className="service-name">{service.name}</Link>
-                  <br />
-                  <span className="service-description">Description: {service.description}</span>
-                  <br />
-                  <span className="service-price">Price: ${service.price}</span>
-                </li>
+                  <Link to={service.name} className="service-name" aria-label={service.name}>{service.name}</Link>
+                <br />
+                <span className="service-description" aria-label={`Description: ${service.description}`}>Description: {service.description}</span>
+                <br />
+                <span className="service-price" aria-label={`Price: $${service.price}`}>Price: ${service.price}</span>
+              </li>
               ))}
             </ul>
           </div>

@@ -14,13 +14,15 @@ nav {
 .logo {
   height: 540px;
   padding: 1.2em;
+  border-radius: 5em;
   will-change: filter;
   transition: filter 300ms;
-  filter: drop-shadow(0 0 1.3em #a263fa77);
+  filter: drop-shadow(0 .4em 2.1em #a263fa77);
+
 }
 
 #button {
-  border-radius: 1em;
+  border-radius: .5em;
 }
 
 .subtitle {

@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import './App.css'
 import ServiceCategories from "./components/services/ServiceCategories";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
         <Routes>
           <Route path={"/"} element={<Home/>} />
+          <Route path={"/bio"} element={<About/>} />
           <Route path={"/service-categories"} element={<ServiceCategories />} />
           <Route path={"/services"} element={<ServiceList />} />
         </Routes>

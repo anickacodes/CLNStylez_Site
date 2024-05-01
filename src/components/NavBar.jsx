@@ -12,8 +12,8 @@ export default function NavBar() {
             right: 0,
             width: "maxContent"
           }}>
-      <Button className="btn btn-dark btn-outline-warning" id='button' as={Link} to="/" disabled>Home</Button> 
-      <Button className="btn btn-dark btn-outline-warning" id='button' as={Link} to="/service-categories">Service Listings </Button> 
+      <Button className="btn btn-dark btn-outline-warning" id='button' as={Link} to="/" aria-label="Home">Home</Button> 
+      <Button className="btn btn-dark btn-outline-warning" id='button' as={Link} to="/service-categories" aria-label="Service Listings">Service Listings </Button> 
    
       </nav>
     </>
