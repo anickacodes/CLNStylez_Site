@@ -3,12 +3,14 @@ import './ServiceCategories.css'
 
 const ServiceCategories = () => {
   return (
-    <div className="categories-container">
-        <h2>
+    <>
+     <h2>
         <i>Currently offered services</i> 
         </h2>
-      <section>
-        <ul className="category-list list-group" role="list">
+    <div className="categories-container">
+       
+<section>
+        <ul className="category-list list-group m-1" role="list">
           <li className="category-item list-group-item">
             <Link to="/services/kids" role="listitem">Kids</Link>
           </li>
@@ -30,7 +32,9 @@ const ServiceCategories = () => {
        </ul>
         </section>
     </div>
+    </>
   );
 };
 
 export default ServiceCategories;
+

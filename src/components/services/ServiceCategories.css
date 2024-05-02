@@ -3,20 +3,24 @@ h2 {
     text-align: center;
 }
 
+ul {
+    gap: 4px;
+}
 .categories-container {
     margin-top: 20px;
     padding: 2px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+   
 }
 
 .category-item {
     font-size: 22px;
-    margin-bottom: 8px;
+    height: 47px;
+border-radius: 1em;
 }
 
 .category-item:hover {
-    color: #007bff;
+    color: orange;
+    font-size: 25px;
     cursor: pointer;
 }
