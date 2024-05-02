@@ -1,37 +1,42 @@
 
 
-h1   {
-   text-align: center;
-}
-
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .service-list-container {
-    margin-top: 20px;
-  }
-  
-  .service-item {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .service-name {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .service-description {
-    color: #555;
-  }
-  
-  .service-price {
-    font-weight: bold;
-    color: #007bff;
-  }
-  
+  padding-top: 40px;
+  width: 70vw;
+  height: 80vh;
+  overflow-X: auto;
+  overflow-Y: auto;
+  font-Weight: bolder;
+  margin: 47px 5px 5px 10px;
+}
 
-  
+.card-container {
+  will-change: filter;
+  transition: filter 300ms;
+  filter: drop-shadow(0 .2em .4em #7035c154);
+
+}
+.service-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid  rgba(134, 39, 134, 0.286);
+  border-radius: 5px;
+}
+
+.service-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.service-description {
+  color: #403939;
+}
+
+.service-price {
+  font-weight: bold;
+  color: #007bff;
+}
