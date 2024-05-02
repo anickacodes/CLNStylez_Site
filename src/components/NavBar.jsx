@@ -13,6 +13,7 @@ export default function NavBar() {
             width: "maxContent"
           }}>
       <Button className="btn btn-dark btn-outline-warning" id='button' as={Link} to="/" aria-label="Home">Home</Button> 
+      <Button className="btn btn-dark btn-outline-warning" id='button' as={Link} to="/ambassador-links" aria-label="Home"> Affiliates</Button> 
       <Button className="btn btn-dark btn-outline-warning" id='button' as={Link} to="/service-categories" aria-label="Service Listings">Service Listings </Button> 
    
       </nav>
