@@ -1,0 +1,78 @@
+{
+    "hair_braiding_services": {
+      "Traditional Box Braids": [
+        {
+          "client_name": "Brianna C",
+          "review_date": "2023-05-12",
+          "review_text": "Absolutely love my box braids!!! They're so neat and well-done. Highly recommend."
+        },
+        {
+          "client_name": "Jennifer F",
+          "review_date": "2023-06-25",
+          "review_text": "Had a great experience getting my box braids done at home. They look amazing and Nicki was very professional."
+        },
+        {
+          "client_name": "Lisa J",
+          "review_date": "2023-07-18",
+          "review_text": "Perfect braids! Nicki was friendly and very attentive to details."
+        },
+        {
+          "client_name": "Michelle H",
+          "review_date": "2023-08-10",
+          "review_text": "These box braids are exactly what I wanted. Nicki did an excellent job!"
+        }
+      ],
+      "Cornrows": [
+        {
+          "client_name": "Rafael J",
+          "review_date": "2023-04-02",
+          "review_text": "Very beautiful cornrows. This is my 3rd time and I must say, Nicki is skilled and quick. Will definitely book again!"
+        },
+        {
+          "client_name": "Janet S",
+          "review_date": "2023-06-15",
+          "review_text": "My cornrows look amazing! Nicki did a fantastic job. On time, professional and so nice!! Highly highly recommended!!"
+        },
+        {
+          "client_name": "Ascen X",
+          "review_date": "2023-07-29",
+          "review_text": "Very pleased with the style! Neat and stylish. Great service overall. Thank you Nicki. See you next time Dear."
+        }
+      ],
+      "Senegalese Twists": [
+        {
+          "client_name": "Martha V",
+          "review_date": "2023-03-10",
+          "review_text": "Loved the twists! They're exactly what I asked for. Thank you Nickiiii."
+        },
+        {
+          "client_name": "Amber H",
+          "review_date": "2023-08-15",
+          "review_text": "I'm so happy with my beautiful twists! They're perfect. Great service and wonderful stylist."
+        }
+      ],
+      "Knotless Braids": [
+        {
+          "client_name": "Rosa S",
+          "review_date": "2023-04-20",
+          "review_text": "Beautiful knotless braids at my home! Nicki did a fantastic job and my daughter loves hers too!!"
+        },
+        {
+          "client_name": "Evelyn L",
+          "review_date": "2023-06-10",
+          "review_text": "Stylish and well-done. Wonderful experience! Thank you again Nicki!"
+        },
+        {
+          "client_name": "Brianna C",
+          "review_date": "2023-07-22",
+          "review_text": "Loved my knotless braids! A change from my regular box braids and glad to say I chose right. Thank you Nicki 😇"
+        },
+        {
+          "client_name": "Joanna J",
+          "review_date": "2023-09-05",
+          "review_text": "Loved these for my daughter. Nicki traveled all the way to us and was very professional and nice. Thanks again"
+        }
+      ]
+    }
+  }
+  
