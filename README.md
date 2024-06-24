@@ -10,7 +10,6 @@
 
 
 
-
 _Utilizing the following technologies:_
 - React & React Router 
 - Bootstrap 

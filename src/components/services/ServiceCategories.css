@@ -1,23 +1,31 @@
-h2 {
+h5 {
     color: rgba(128, 0, 128, 0.516);
     text-align: center;
 }
 
-ul {
-    gap: 4px;
-}
 .categories-container {
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
     padding: 2px;
     text-align: center;
    
 }
 
-.category-item {
+
+.categories-list {
+    border: 1px solid #611f1f;
+    padding: 20px;
+  }
+  
+  .category-item {
+    margin-bottom: 15px;
+  }
+
+/* .category-item {
     font-size: 22px;
     height: 47px;
 border-radius: 1em;
-}
+} */
 
 .category-item:hover {
     color: orange;

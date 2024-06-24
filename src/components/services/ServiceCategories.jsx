@@ -1,40 +1,40 @@
 import { Link } from "react-router-dom";
-import './ServiceCategories.css'
+import axios from "axios";
+import "./ServiceCategories.css";
+import { useEffect, useState } from "react";
 
 const ServiceCategories = () => {
+  const [categories, setCategories] = useState([]);
+  const url = import.meta.env.VITE_URL;
+  // service, description
+
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        const response = await axios.get(`http://localhost:2222/category`);
+        // console.log(response.data);
+        setCategories(response.data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    fetchCategories();
+  }, []);
+
   return (
-    <>
-     <h2>
-        <i>Currently offered services</i> 
-        </h2>
     <div className="categories-container">
-       
-<section>
-        <ul className="category-list list-group m-1" role="list">
-          <li className="category-item list-group-item">
-            <Link to="/services/kids" role="listitem">Kids</Link>
-          </li>
-          <li className="category-item list-group-item">
-            <Link to="/services/color" role="listitem">Color</Link>
-          </li>
-          <li className="category-item list-group-item">
-            <Link to="/services/crochet" role="listitem">Crochet</Link>
-          </li>
-          <li className="category-item list-group-item">
-            <Link to="/services/natural-styling" role="listitem">Natural Styling</Link>
-          </li>
-          <li className="category-item list-group-item">
-            <Link to="/services/hair-care-regimen" role="listitem">Hair Maintenance</Link>
-          </li>
-          <li className="category-item list-group-item">
-            <Link to="/services/braid-and-twist-extensions" role="listitem">Braid & Twist Extensions</Link>
-          </li>
-       </ul>
-        </section>
+      {categories.map((category) => (
+        <div key={category.id} className="categories-list">
+          <Link to={`/styles/${category.id}`}>
+            <h5>{category.service}</h5>
+          </Link>
+          <p>{category.description}</p>
+        </div>
+      ))}
     </div>
-    </>
   );
 };
 
 export default ServiceCategories;
 
+// ctegories to the left => epand on the right

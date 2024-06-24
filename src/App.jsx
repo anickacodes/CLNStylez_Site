@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import ServiceList from "./components/services/ServiceList";
+import ServiceList from "./components/services/StylesList";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import './App.css'
@@ -20,7 +20,7 @@ function App() {
           <Route path={"/bio"} element={<About/>} />
           <Route path={"/ambassador-links"} element={<Linktree/>} />
           <Route path={"/service-categories"} element={<ServiceCategories />} />
-          <Route path={"/services"} element={<ServiceList />} />
+          <Route path={"/styles/:categoryId"} element={<ServiceList />} />
         </Routes>
         <Footer/>
       </Router>
