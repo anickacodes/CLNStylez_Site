@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap"
-
+import '../App.css'
 
 const Footer = () => {
 
@@ -12,7 +12,7 @@ const Footer = () => {
             width: "maxContent"
           }} aria-label="Footer" role="contentinfo">
         <Container>
-          <p className="mb-0 text-center">© 2024 CLN Stylez. All rights reserved.</p>
+          <p className="mb-0 text-center footer">© 2024 CLN Stylez. All rights reserved.</p>
         </Container>
       </footer>
     )
