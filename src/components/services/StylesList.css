@@ -1,42 +1,35 @@
 
-
-ul {
-  list-style-type: none;
-}
-
-.service-list-container {
-  padding-top: 40px;
+.styles-container {
   width: 70vw;
   height: 80vh;
-  overflow-X: auto;
-  overflow-Y: auto;
   font-Weight: bolder;
-  margin: 47px 5px 5px 10px;
+  margin: 0px 5px 5px 10px;
 }
 
-.card-container {
+/* .card-container {
   will-change: filter;
   transition: filter 300ms;
   filter: drop-shadow(0 .2em .4em #7035c154);
+} */
 
-}
-.service-item {
-  margin-bottom: 10px;
+.style-item {
+  margin-bottom: 4px;
   padding: 10px;
-  border: 1px solid  rgba(134, 39, 134, 0.286);
+  border: 3px outset rgba(134, 39, 134, 0.286);
   border-radius: 5px;
+  text-align: center;
 }
 
-.service-name {
+h5 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.service-description {
+.style-description {
   color: #403939;
 }
 
-.service-price {
+p {
   font-weight: bold;
   color: #007bff;
 }
