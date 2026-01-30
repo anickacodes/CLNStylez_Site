@@ -12,7 +12,7 @@ export default function Home() {
           to="/bio"
           aria-label="Learn more about our team of professionals"
         >
-          Meet our healing hands
+          <sub>Meet our healing hands</sub>
         </Link>
       </h4>
       <div>

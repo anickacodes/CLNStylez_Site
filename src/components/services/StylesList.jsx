@@ -15,7 +15,7 @@ function StylesList() {
         const response = await axios.get(
           `http://localhost:2222/styles/category/${categoryId}`
         );
-        console.log(response.data);
+        // console.log(response.data);
         setStyles(response.data);
       } catch (error) {
         console.error(error);
@@ -32,10 +32,10 @@ function StylesList() {
     <div className="styles-container mt-5">
       {styles.map((style) => (
         <Card key={style.id} className="style-item">
-          <Card.Header>
+          <Card.Header className="styles-button">
             <Button
-              className="w-75"
-              variant="info"
+              className="w-70 button-s"
+              variant = 'info'
               onClick={() => handleToggle(style.id)}
               aria-controls={`collapse-${style.id}`}
               aria-expanded={openStyle === style.id}
