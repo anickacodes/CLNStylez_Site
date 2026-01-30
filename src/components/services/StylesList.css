@@ -1,35 +1,42 @@
-
 .styles-container {
-  width: 70vw;
-  height: 80vh;
+  width: 60vw;
+  height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   font-Weight: bolder;
   margin: 0px 5px 5px 10px;
 }
 
-/* .card-container {
-  will-change: filter;
-  transition: filter 300ms;
-  filter: drop-shadow(0 .2em .4em #7035c154);
-} */
-
 .style-item {
-  margin-bottom: 4px;
-  padding: 10px;
-  border: 3px outset rgba(134, 39, 134, 0.286);
+  margin-bottom: 3px;
   border-radius: 5px;
   text-align: center;
+  background-color: rgba(255, 222, 181, 0.484);
+  border: .5px outset rgba(134, 39, 134, 0.286);
+  border-radius: 5px;
+  padding: 20px;
 }
+
+.styles-button {
+  color: rgb(60, 60, 221);
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: none;
+}
+
+.button-s {
+  background-color: rgba(0, 0, 0, 0);
+  color: #906d05;
+  font-weight: bold;
+  border: none;
+}
+
 
 h5 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.style-description {
-  color: #403939;
-}
-
 p {
-  font-weight: bold;
-  color: #007bff;
+  font-weight: bolder;
+  color: #403939;
 }

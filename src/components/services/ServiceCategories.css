@@ -7,28 +7,24 @@ h5 {
     display: flex;
     flex-direction: column;
     padding: 2px;
-    text-align: center;
-   
+    margin: 0 auto;
+    max-width: 80vw;
 }
-
 
 .categories-list {
     border: 1px solid #611f1f;
+    border-radius: 5px;
     padding: 20px;
-  }
-  
-  .category-item {
-    margin-bottom: 15px;
-  }
-
-/* .category-item {
-    font-size: 22px;
-    height: 47px;
-border-radius: 1em;
-} */
+    margin-bottom: 10px;
+}
 
 .category-item:hover {
     color: orange;
     font-size: 25px;
-    cursor: pointer;
+    cursor: url('woodComb.jpg'), auto;
+}
+
+.categories-list a {
+    text-decoration: none;
+
 }

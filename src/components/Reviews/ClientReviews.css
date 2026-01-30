@@ -1,0 +1,19 @@
+
+.carousel-container {
+    
+    .carousel-indicator {
+        color:rgba(44, 127, 132, 0.941)
+    }
+
+    .carousel-cardbody {
+        display: unset;
+        border: 1px inset #a263fa32; 
+        background-color: rgba(255, 222, 181, 0.504);
+    
+    
+          p{
+            color: rgba(128, 0, 128, 0.516);
+            font-style: italic;
+          }
+    }
+}
