@@ -11,7 +11,7 @@ import Linktree from "./pages/Linktree";
 
 function App() {
   return (
-    <>
+    <div className="app_casing" aria-label="" tabIndex={-1} style={PointerEvent = none}>
       <Router>
       <NavBar />
 
@@ -24,7 +24,7 @@ function App() {
         </Routes>
         <Footer/>
       </Router>
-    </>
+    </div>
   );
 }
 

@@ -11,8 +11,10 @@ const ServiceCategories = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await axios.get(`http://localhost:2222/category`);
-        // console.log(response.data);
+        // const response = await axios.get(`${url}/category`);
+        const response = await axios.get(`${import.meta.env.VITE_LOCALHOST}/category`);
+        
+        console.log(response.data);
         setCategories(response.data);
       } catch (error) {
         console.error(error);

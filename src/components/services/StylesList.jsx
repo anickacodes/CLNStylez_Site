@@ -13,7 +13,7 @@ function StylesList() {
     const fetchStyles = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:2222/styles/category/${categoryId}`
+          `/styles/category/${categoryId}`
         );
         console.log(response.data);
         setStyles(response.data);
